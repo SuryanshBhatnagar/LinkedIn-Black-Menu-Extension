@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "LinkedIn Black Menu",
+  "version": "1.0.1",
+  "description": "LinkedIn Black Menu Extension",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "<all_urls>"
+  ]
+}
